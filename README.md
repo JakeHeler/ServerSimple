@@ -10,6 +10,13 @@ enough to cover mutiple connections more than 5000 per one server.
 For secure data communications , AES CBC Encrypt /Decrypt is used. For Key exchange , Diffie-Helman Method is used.
 The related sources are referred to Git Hub.
 
+*How to Build
+ - cd the directory you downloaded
+ - You should check if the path of mysql include and curl lib is right on your system
+   If the path in Makefile is different with yours , you should change it.
+ - make
+ - run it ( ./ServerRun )
+
 *The Way to communications
 1. Client connect to server by sending Client's Key Data
 2. Server save the Key data and get AES Key by using the received Key Data.
