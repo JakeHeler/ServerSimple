@@ -12,7 +12,7 @@ The related sources are referred to Git Hub.
 
 *How to Build
  - cd the directory you downloaded
- - You should check if the path of mysql include and curl lib is right on your system
+ - You should check if the path of mysql and curl lib is right on your system
    If the path in Makefile is different with yours , you should change it.
  - make
  - run it ( ./ServerRun )
